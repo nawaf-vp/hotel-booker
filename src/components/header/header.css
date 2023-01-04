@@ -1,0 +1,118 @@
+.header{
+    color:white;
+    background-color: rgb(28, 49, 90);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.headerContainer{
+    width:100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+
+      
+} 
+
+.headerList{
+    display: flex;
+    gap:40px;
+    
+}
+
+.headerListItem{
+     display: flex;
+     align-items: center;
+     gap:10px;
+    }
+.headerListItem.active{
+    border: 1px solid white;
+    padding:10px;
+    border-radius: 20px;
+    
+}
+.headerListItem.active:hover{
+    color: rgb(255, 183, 0);
+    border-color: rgb(255, 183, 0) ;
+
+}
+
+.headerbtn{
+    background-color: rgb(252, 149, 4);
+    color:white;
+    font-weight: 600;
+    border-radius: 5px;
+    border-style: none;
+    margin: 20px 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+.headerDesc{
+    margin: 20px 0px;
+}
+ .headerSearch{
+    height: 30px;
+    width:100%;
+    max-width: 1024px;
+    background-color:white;
+    border:3px solid rgb(255, 194, 27);
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius:5px;
+    position:absolute;
+    bottom:-25px;
+    width:100%;
+
+}
+
+.headerIcon{
+    color: rgb(175, 175, 175);
+    margin-right: 5px;
+}
+.headerSearchText{
+    color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+.headerSearchInput{
+   outline:none;
+   border:none;
+}
+.headerBtn{
+    background-color: rgb(98, 98, 98);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+.headerBtn:hover{
+    background-color: rgb(255, 167, 3);
+    
+}
+.date{
+    position:absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px; /* Need a specific value to work */
+
+    
+}
+.options{
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: grey; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0,0, 0.4);
+
+}
+.optionItem{
+    width: 200px;
+    display: flex ;
+}
+.optionCounterNumber{
+    color: black;
+}
